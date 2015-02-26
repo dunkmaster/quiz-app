@@ -1,0 +1,35 @@
+button:hover{
+  cursor: pointer;
+}
+
+button.btn {
+  outline: 0;
+  text-decoration: 0;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  @include btn-style($btn-primary, #E6E6E6);
+
+}
+button.btn-q-opt{
+  @include btn-style($btn-question-option, black);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 30px 20px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button.btn-wrong {
+  @include btn-style($btn-wrong, #E6E6E6);
+
+}
+
+button.btn-correct {
+  @include btn-style($btn-correct, #E6E6E6);
+}
+
+button.btn-show-correct {
+  @include btn-style($btn-correct, #E6E6E6);
+  @include transition(0.2s, 1.0s, all, ease-in);
+}

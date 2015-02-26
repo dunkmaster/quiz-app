@@ -1,0 +1,221 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+button:hover {
+  cursor: pointer; }
+
+button.btn {
+  outline: 0;
+  text-decoration: 0;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #006699;
+  color: #E6E6E6;
+  border-color: #005580; }
+  button.btn:hover {
+    background-color: #004466; }
+
+button.btn-q-opt {
+  background-color: #CCCCCC;
+  color: black;
+  border-color: #bfbfbf;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 30px 20px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px; }
+  button.btn-q-opt:hover {
+    background-color: #b3b3b3; }
+
+button.btn-wrong {
+  background-color: #BC1616;
+  color: #E6E6E6;
+  border-color: #a51313; }
+  button.btn-wrong:hover {
+    background-color: #8e1111; }
+
+button.btn-correct {
+  background-color: #009933;
+  color: #E6E6E6;
+  border-color: #00802b; }
+  button.btn-correct:hover {
+    background-color: #006622; }
+
+button.btn-show-correct {
+  background-color: #009933;
+  color: #E6E6E6;
+  border-color: #00802b;
+  transition: all 0.2s 1s ease-in;
+  -ms-transition: all 0.2s 1s ease-in;
+  -moz-transition: all 0.2s 1s ease-in;
+  -webkit-transition: all 0.2s 1s ease-in; }
+  button.btn-show-correct:hover {
+    background-color: #006622; }
+
+div.navbar {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  div.navbar:after {
+    content: "";
+    display: table;
+    clear: both; }
+  div.navbar div.left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    div.navbar div.left:last-child {
+      margin-right: 0; }
+  div.navbar div.right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-right: 0; }
+    div.navbar div.right:last-child {
+      margin-right: 0; }
+    div.navbar div.right ul {
+      float: left;
+      display: block;
+      margin-right: 2.84259%;
+      width: 100%; }
+      div.navbar div.right ul:last-child {
+        margin-right: 0; }
+      div.navbar div.right ul li {
+        float: left;
+        display: block;
+        margin-right: 2.84259%;
+        width: 17.72593%; }
+        div.navbar div.right ul li:last-child {
+          margin-right: 0; }
+        div.navbar div.right ul li a {
+          float: left;
+          display: block;
+          margin-right: 38.19821%;
+          width: 100%; }
+          div.navbar div.right ul li a:last-child {
+            margin-right: 0; }
+
+div.content {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  div.content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  div.content div.app-container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    margin-right: 0; }
+    div.content div.app-container:last-child {
+      margin-right: 0; }
+    div.content div.app-container div.question-container {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%; }
+      div.content div.app-container div.question-container:last-child {
+        margin-right: 0; }
+      div.content div.app-container div.question-container .question-title {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 65.05695%; }
+        div.content div.app-container div.question-container .question-title:last-child {
+          margin-right: 0; }
+      div.content div.app-container div.question-container .timer {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 30.11389%; }
+        div.content div.app-container div.question-container .timer:last-child {
+          margin-right: 0; }
+      div.content div.app-container div.question-container div.options {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 100%; }
+        div.content div.app-container div.question-container div.options:last-child {
+          margin-right: 0; }
+        div.content div.app-container div.question-container div.options button.option {
+          float: left;
+          display: block;
+          margin-right: 4.82916%;
+          width: 30.11389%; }
+          div.content div.app-container div.question-container div.options button.option:last-child {
+            margin-right: 0; }
+    div.content div.app-container div.actionbar {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      margin-top: 15px; }
+      div.content div.app-container div.actionbar:last-child {
+        margin-right: 0; }
+      div.content div.app-container div.actionbar button {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 30.11389%; }
+        div.content div.app-container div.actionbar button:last-child {
+          margin-right: 0; }
+
+header {
+  text-align: left;
+  height: 65px;
+  background-color: #006699;
+  margin-bottom: 0px; }
+  header div.navbar a {
+    text-decoration: none;
+    color: white; }
+  header div.navbar a.header-title {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold; }
+  header div.navbar div.item-container {
+    height: 65px; }
+    header div.navbar div.item-container ul {
+      height: inherit;
+      margin: 0px;
+      vertical-align: middle;
+      line-height: 65px;
+      text-align: center; }
+      header div.navbar div.item-container ul li {
+        margin-right: 0px;
+        min-width: 80px;
+        display: inline-block;
+        text-align: center;
+        font-size: 14px; }
+        header div.navbar div.item-container ul li:hover {
+          background-color: #004466; }
+
+html {
+  height: 100%; }
+
+body {
+  background-color: #F0F8FF;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  margin: 0px;
+  height: 100%; }
+  body div.content {
+    min-height: 100%;
+    box-shadow: 4px 0px 1px #888888;
+    padding-top: 40px;
+    background-color: white; }

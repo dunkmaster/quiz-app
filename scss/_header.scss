@@ -1,0 +1,41 @@
+header{
+  text-align: left;
+  height: 65px;
+  background-color: $primary-color;
+  margin-bottom: 0px;
+  div.navbar{
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    a.header-title{
+      margin-left: 10px;
+      font-size: 24px;
+      font-weight: bold;
+
+    }
+    div.item-container {
+      height: 65px;
+      ul {
+        height: inherit;
+        margin: 0px;
+
+        vertical-align: middle;
+        line-height: 65px;
+        text-align: center;
+        li {
+          &:hover{
+            background-color: darken($primary-color, 10%);
+          }
+          margin-right: 0px;
+          min-width: 80px;
+
+          display: inline-block;
+          text-align: center;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

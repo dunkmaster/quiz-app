@@ -1,0 +1,32 @@
+@import "bourbon";
+@import "neat";
+
+//Variables and basic elements
+@import "variables";
+@import "elements";
+
+//Grid
+@import "grid";
+
+//navbar
+@import "header";
+
+@import "question";
+@import "quizapp";
+@import "quizlist";
+html{
+  height: 100%;
+
+}
+body {
+  background-color: #F0F8FF;
+  font-family: Tahoma, Verdana, Segoe,sans-serif;
+  margin: 0px;
+  height: 100%;
+  div.content{
+    min-height: 100%;
+    box-shadow: 4px 0px 1px #888888;
+    padding-top: 40px;
+    background-color: white;
+  }
+}
